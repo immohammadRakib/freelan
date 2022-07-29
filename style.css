@@ -1,0 +1,82 @@
+#course img{
+    width: 100%;
+    margin-left:;
+
+    /* background-color: red; */
+}
+
+.card #gater{
+    width: 25px;
+    height: 25px;
+}
+.card #less{
+    width: 25px;
+    height: 25px;
+    align-items: center;
+}
+/* this section for mobile version */
+@media screen and (max-width:576px) {
+    #size{
+        font-size: 28px;
+    }
+    #modal{
+        flex-direction: column;
+        text-align: center;
+        font-size: large;
+        padding: 15px;
+        font-size: 20px;
+    }
+    #modal .btn {
+        margin-top: -30%;
+        height: 70px;
+        width: 250px;
+        font-size: 32px;
+    }
+    #company{
+        visibility: hidden;
+    }
+    #serch{
+        visibility: hidden;
+    }
+    .card-body #center{
+        text-align: center;
+    }
+    #successful{
+        width: 100%;
+    }
+}
+/* this section for tablet version */
+@media screen and (min-width:577px) and (max-width:768px) {
+    #modal{
+        flex-direction: column;
+        text-align: center;
+        font-size: large;
+        padding: 15px;
+        font-size: 20px;
+    }
+    #modal .btn {
+        margin-top: -30%;
+        height: 70px;
+        width: 250px;
+        font-size: 32px;
+    }
+    #company{
+        visibility: hidden;
+    }
+    .card #gater {
+        visibility: hidden;
+    }
+    .card #less{
+        visibility: hidden;
+    }
+    #serch{
+        visibility: visible;
+    }
+}
+/* this section for desktop version */
+@media screen and (min-width:769) and (max-width:992px) {
+    .feedback .btn{
+        visibility: hidden;
+    }
+    
+}
