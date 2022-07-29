@@ -46,7 +46,8 @@
     }
     
     .course-hiden{
-        visibility: hidden;
+        /* visibility: hidden; */
+        /* position: relative; */
     }
 }
 /* this section for tablet version */
