@@ -44,6 +44,10 @@
     #successful{
         width: 100%;
     }
+    
+    .course-hiden{
+        visibility: hidden;
+    }
 }
 /* this section for tablet version */
 @media screen and (min-width:577px) and (max-width:768px) {
@@ -71,6 +75,9 @@
     }
     #serch{
         visibility: visible;
+    }
+    .course-hiden{
+        visibility: hidden;
     }
 }
 /* this section for desktop version */
